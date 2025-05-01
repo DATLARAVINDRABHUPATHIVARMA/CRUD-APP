@@ -17,7 +17,7 @@ function App() {
       <ToastContainer theme="colored"></ToastContainer>
       <Router> 
         <Routes>
-          <Route exact path="/" element={<Home />} />
+          <Route exact path="/" element={<Home />}></Route>
           <Route exact path="/Register" element={<Registration />} />
           <Route exact path="/Login" element={<SignIn />} />
           <Route exact path="/ViewAdmin" element={<ViewAdmin />} />
