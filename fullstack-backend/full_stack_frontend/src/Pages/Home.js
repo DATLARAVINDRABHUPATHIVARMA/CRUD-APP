@@ -7,7 +7,7 @@ export default function Home() {
   const [users, setUsers] = useState([]);
   const navigate=useNavigate();
   const {id} = useParams ()
-
+ 
   useEffect(() => {
     loadUsers();
   }, []);
