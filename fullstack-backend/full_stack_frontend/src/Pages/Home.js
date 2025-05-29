@@ -10,7 +10,7 @@ export default function Home() {
  
   useEffect(() => {
     loadUsers();
-  }, []); 
+  }, []);
 
   useEffect(()=>{
     let admin_name=sessionStorage.getItem('admin_name');
