@@ -11,9 +11,6 @@ import { ToastContainer } from "react-toastify";
 import SignIn from "./signin";
 import ViewAdmin from "./ViewAdmins";
 
-
-
-
 function App() {
   return (
     <div className="App">
