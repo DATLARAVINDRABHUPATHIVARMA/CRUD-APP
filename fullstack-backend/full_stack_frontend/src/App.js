@@ -15,7 +15,7 @@ function App() {
   return (
     <div className="App">
       <ToastContainer theme="colored"></ToastContainer>
-      <Router>
+      <Router> 
         <Routes>
           <Route exact path="/" element={<Home />} />
           <Route exact path="/Register" element={<Registration />} />
